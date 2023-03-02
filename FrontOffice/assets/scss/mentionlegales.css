@@ -1,0 +1,40 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(30, 30, 30, 0.5);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 10%;
+  margin-top: 2%;
+}
+nav ul li a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li a:active, nav ul li a:hover {
+  color: rgb(245, 121, 51);
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}/*# sourceMappingURL=mentionlegales.css.map */

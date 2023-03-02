@@ -1,0 +1,241 @@
+/* MAIN */
+main {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5%;
+}
+main #propos {
+  display: flex;
+  flex-direction: row;
+}
+main #propos #pp .photo {
+  width: 240px;
+  height: 305px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+main #propos #pp h2 {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+main #propos #pp .app {
+  color: rgb(245, 121, 51);
+  font-size: 20px;
+  margin-left: 200px;
+}
+main #propos #resume span {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  text-align: center;
+}
+main #propos #resume .big {
+  color: rgb(245, 121, 51);
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-left: 150px;
+  text-align: center;
+}
+main #competences {
+  padding-top: 10%;
+}
+main #competences .orange {
+  color: rgb(245, 121, 51);
+}
+main #competences .underline {
+  -webkit-text-decoration: underline rgb(245, 121, 51);
+          text-decoration: underline rgb(245, 121, 51);
+}
+main #competences h1 {
+  display: inline;
+  font-size: 50px;
+  padding-left: 2%;
+}
+main #competences #rubriques {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 50px;
+}
+main #competences #rubriques .dev {
+  width: 300px;
+  height: 300px;
+  background: rgb(158, 158, 158);
+  margin-left: 50px;
+}
+main #competences #rubriques .dev:hover {
+  border: 4px solid rgb(245, 121, 51);
+  box-shadow: 1px 2px 5px rgb(245, 121, 51);
+}
+main #competences #rubriques .infographie {
+  width: 300px;
+  height: 300px;
+  background: rgb(158, 158, 158);
+}
+main #competences #rubriques .infographie:hover {
+  border: 4px solid rgb(245, 121, 51);
+  box-shadow: 1px 2px 5px rgb(245, 121, 51);
+}
+main #competences #rubriques h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+main #competences #rubriques .desc {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #fff;
+}
+main #competences #rubriques .marron {
+  display: inline;
+  color: rgb(140, 70, 48);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+main #competences #rubriques .number {
+  color: rgba(189, 189, 189, 0.75);
+  font-weight: 900;
+  font-size: 50px;
+}
+main #realisation {
+  padding-top: 10%;
+}
+main #realisation .orange {
+  color: rgb(245, 121, 51);
+}
+main #realisation .underline {
+  -webkit-text-decoration: underline rgb(245, 121, 51);
+          text-decoration: underline rgb(245, 121, 51);
+}
+main #realisation h1 {
+  display: inline;
+  font-size: 50px;
+  padding-left: 2%;
+}
+main #contact {
+  padding-top: 10%;
+}
+main #contact .orange {
+  color: rgb(245, 121, 51);
+}
+main #contact .underline {
+  -webkit-text-decoration: underline rgb(245, 121, 51);
+          text-decoration: underline rgb(245, 121, 51);
+}
+main #contact h1 {
+  display: inline;
+  font-size: 50px;
+  padding-left: 2%;
+}
+main #contact .formulaire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main #contact .formulaire .social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+main #contact .formulaire .social .white {
+  font-size: 20px;
+  font-weight: 700;
+}
+main #contact .formulaire .social .phone {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+main #contact .formulaire .social .phone .imgphone {
+  width: 25px;
+  height: 25px;
+  margin-right: 5%;
+}
+main #contact .formulaire .social .site {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+main #contact .formulaire .social .site .imgsite {
+  width: 25px;
+  height: 25px;
+  margin-right: 5%;
+}
+main #contact .formulaire .social .mail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+main #contact .formulaire .social .mail .imgmail {
+  width: 25px;
+  height: 25px;
+  margin-right: 5%;
+}
+main #contact .formulaire .contacter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+main #contact .formulaire .contacter h3 {
+  text-align: center;
+  font-weight: 900;
+}
+main #contact .formulaire .contacter .boutonForm {
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+  outline: none;
+  background: #45f3ff;
+  color: #000;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 15%;
+}
+main #contact footer {
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+main #contact footer .media-container {
+  display: flex;
+  padding-left: 5%;
+}
+main #contact footer .media-container .medias-btn {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+main #contact footer .media-container .icones {
+  width: 27px;
+}
+main #contact footer .text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 250px;
+  font-weight: 700;
+}
+main #contact footer .lien {
+  margin-left: 5%;
+}
+main #contact footer .lien a {
+  font-weight: 700;
+  text-decoration: none;
+}
+main #contact footer .lien a:active, main #contact footer .lien a:hover {
+  color: rgb(245, 121, 51);
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
